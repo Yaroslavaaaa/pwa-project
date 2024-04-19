@@ -1,0 +1,58 @@
+.expenseList{
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 2vh;
+}
+
+td, th{
+    width: 15vw;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #d1d1d1;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr.head{
+    background-color: #000;
+    color: #ffffff;
+}
+
+
+.form-input{
+    width: 10vw;
+    height: 3vh;
+    border: solid 1px #141414;
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+    background-color: white;
+    padding: 0.2vw;
+    margin-right: 1vw;
+}
+
+
+.button{
+    background-color: #fff;
+    width: 10vw;
+    height: 4vh;
+    border: solid 2px #000;
+    color: #000;
+    border-radius: 100px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
+
+.edit-form{
+    margin-left: 3vw;
+    margin-top: 2vh;
+}

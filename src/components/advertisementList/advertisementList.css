@@ -1,0 +1,98 @@
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5vw;
+  grid-row-gap: 3vw;
+}
+
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.card-header {
+  background-color: #000;
+  padding: 20px;
+  color: #fff;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-content {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card-footer {
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ddd;
+}
+
+.btn-edit,
+.btn-delete,
+.btn-save {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-save {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+
+
+.edit-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input{
+  width: 10vw;
+  height: 3vh;
+  border: solid 1px #141414;
+  border-radius: 1vh;
+  margin-bottom: 2vh;
+  background-color: white;
+  padding: 0.2vw;
+  margin-right: 1vw;
+}
+
+
+.form-input-content{
+  width: 350px;
+  height: 150px;
+  border: solid 1px #141414;
+  border-radius: 1vh;
+  margin-bottom: 2vh;
+  background-color: white;
+  padding: 0.2vw;
+  margin-right: 1vw;
+}
